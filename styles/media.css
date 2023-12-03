@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1170px ) {
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px;
+    }
+
+    .left-side{
+        width: 100%;
+    }
+
+    .right-side{
+        width: 100%;
+        margin-top: 18px;
+    }
+    
+    .right-side-footer{
+        margin-left: 20px;
+    }
+        
+
+    .images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1{
+        margin-left: 99px;
+    }
+
+    .title h2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 940px ) {
+    .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title h2{
+        font-size: 30px;
+    }
+
+    .left-side-footer .content{
+        padding-top: 63px;
+        margin-left: 0px;
+    }
+
+    .footer{
+        height: 744px;
+        width: 100%;
+        background-color: #000;
+        padding-left: 143px;
+        flex-direction: column;
+    }
+
+    
+.right-side-footer .links{
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.right-side-footer{
+    margin-left: 0px;
+}
+
+.links{
+    height: 160px;
+    width: 91px;
+    margin-top: 63px;
+}
+
+
+.links p{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 115px;
+    margin-bottom: 32px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+.links h3{
+    text-decoration: none;    
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 220px;
+    margin-bottom: 9px;
+}
+
+.links h3 i{
+    color: #5863E3;    
+    font-size: 17px;
+    display: flex;
+    margin-right: 14px;
+}
+}
